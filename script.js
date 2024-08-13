@@ -41,3 +41,20 @@ brojevi.forEach(broj=>{
 
  
 });
+
+
+
+
+//13.8
+let zvjezdica= "*"
+for(let i=1; i<=6;i++){
+    console.log(zvjezdica);
+    zvjezdica=zvjezdica+"*";
+}
+//Funkcije
+function pozdraviti(){
+    console.log("Dobrodosao");
+    console.log("Drago nam je da ste se pridruzili!");
+}
+pozdraviti("Mujo");
+pozdraviti("Aisa");
