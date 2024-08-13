@@ -52,9 +52,14 @@ for(let i=1; i<=6;i++){
     zvjezdica=zvjezdica+"*";
 }
 //Funkcije
-function pozdraviti(){
+function pozdraviti(ime,spol){
+  if(spol===0){
+  console.log("Dobrodosla");
+  }else{
     console.log("Dobrodosao");
+  }
+
     console.log("Drago nam je da ste se pridruzili!");
 }
-pozdraviti("Mujo");
-pozdraviti("Aisa");
+pozdraviti("Mujo",0);
+pozdraviti("Aisa",1);
